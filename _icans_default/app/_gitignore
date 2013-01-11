@@ -1,7 +1,7 @@
 .project
 .settings
 deps/*
-ebin/*.beam
+ebin/*
 priv/*
 *.dump
 *.log
