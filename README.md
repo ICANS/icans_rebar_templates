@@ -18,13 +18,13 @@ cp -R ~/.icans/resources/icans_rebar_templates/* ~/.rebar/templates/
 Usage (Linux)
 -------------
 To create a project with multiple app:
-rebar create template=icans_multiapp_proj projectid=<your project> author="you <you@example.com>" [appid=<root app>]
+rebar create template=icans_multiapp_proj projectid=yourproject author="you you@example.com" [appid=rootapp]
 
 To create an application
-rebar create template=icans_app appid=<app name> author="you <you@example.com>"
+rebar create template=icans_app appid=appname author="you you@example.com"
 
 To create a library application (no {mod, ...} in app.src)
-rebar create template=icans_lib appid=<app name> author="you <you@example.com>"
+rebar create template=icans_lib appid=appname author="you you@example.com"
 
 Setup & Usage (Windows)
 -----------------------
