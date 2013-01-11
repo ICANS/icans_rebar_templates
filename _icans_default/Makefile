@@ -6,7 +6,7 @@ get-deps:
 compile:
 	@$(REBAR) compile
 test:
-	@$(REBAR) skip_deps=true test
+	@$(REBAR) skip_deps=true eunit
 clean:
 	@$(REBAR) clean
 docs:
