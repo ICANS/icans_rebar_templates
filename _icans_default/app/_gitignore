@@ -1,0 +1,7 @@
+.project
+.settings
+deps/*
+ebin/*.beam
+priv/*
+*.dump
+*.log

@@ -1,0 +1,5 @@
+.cookie
+*.dump
+*.log
+*.beam
+deps/*

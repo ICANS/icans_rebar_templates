@@ -1,0 +1,8 @@
+-smp auto
+
+-boot start_sasl
+-sasl_error_logger '{file, "logs/{{projectid}}.log"}'
+
+%-run {{project}} start
+
+-config config/{{projectid}}

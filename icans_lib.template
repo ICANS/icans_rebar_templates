@@ -1,0 +1,10 @@
+{variables, [
+	{appid, "icans_lib"},
+	{author, "John Doe"}
+]}.
+
+{file,		"_icans_default/app/_gitignore",				"{{appid}}/.gitignore"}.
+{template,	"_icans_default/app/rebar.config",				"{{appid}}/rebar.config"}.
+{template,	"_icans_default/app/Makefile",					"{{appid}}/Makefile"}.
+{template,	"_icans_default/app/src/template.lib.erl",		"{{appid}}/src/{{appid}}.erl"}.
+{template,	"_icans_default/app/src/template.libapp.src",	"{{appid}}/src/{{appid}}.app.src"}.
