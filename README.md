@@ -6,11 +6,14 @@ ICANS application and project templates for basho's rebar.
 Setup (Linux)
 -------------
 mkdir -p ~/.icans/resources/  (or any other place you fancy)
+
 cd ~/.icans/resources/
+
 git clone git://github.com/ICANS/icans_rebar_templates.git
+
 mkdir -p ~/.rebar/templates
 
-cp -R ~/.icans/resources/* ~/.rebar/templates/
+cp -R ~/.icans/resources/icans_rebar_templates/* ~/.rebar/templates/
 
 Usage (Linux)
 -------------
