@@ -18,7 +18,7 @@ cp -R ~/.icans/resources/icans_rebar_templates/* ~/.rebar/templates/
 Usage (Linux)
 -------------
 To create a project with multiple app:
-rebar create template=icans_multiapp_proj projectid=yourproject author="you you@example.com" [appid=rootapp]
+rebar create template=icans_proj projectid=yourproject author="you you@example.com" [appid=rootapp]
 
 To create an application
 rebar create template=icans_app appid=appname author="you you@example.com"

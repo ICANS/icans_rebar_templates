@@ -3,9 +3,7 @@
 	{author, "John Doe"}
 ]}.
 
-{file,		"_icans_default/app/_gitignore",				"{{appid}}/.gitignore"}.
-{template,	"_icans_default/app/rebar.config",				"{{appid}}/rebar.config"}.
-{template,	"_icans_default/app/Makefile",					"{{appid}}/Makefile"}.
+{file,		"_icans_default/app/_gitignore",			"{{appid}}/.gitignore"}.
 {template,	"_icans_default/app/src/template.erl",			"{{appid}}/src/{{appid}}.erl"}.
 {template,	"_icans_default/app/src/template_app.erl",		"{{appid}}/src/{{appid}}_app.erl"}.
 {template,	"_icans_default/app/src/template_sup.erl",		"{{appid}}/src/{{appid}}_sup.erl"}.
