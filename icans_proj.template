@@ -8,6 +8,8 @@
 {file,		"_icans_default/_gitignore",	"{{projectid}}/.gitignore"}.
 {template,	"_icans_default/README.md",	"{{projectid}}/README.md"}.
 {template,	"_icans_default/rebar.config",	"{{projectid}}/rebar.config"}.
+{dir,						"{{projectid}}/deps"}.
+{dir,						"{{projectid}}/include"}.
 
 {file,		"_icans_default/app/_gitignore",		"{{projectid}}/apps/{{appid}}/.gitignore"}.
 {template,	"_icans_default/app/src/template.erl",		"{{projectid}}/apps/{{appid}}/src/{{appid}}.erl"}.
