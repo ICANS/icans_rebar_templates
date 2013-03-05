@@ -12,6 +12,7 @@
 {dir,						"{{projectid}}/include"}.
 
 {file,		"_icans_default/app/_gitignore",		"{{projectid}}/apps/{{appid}}/.gitignore"}.
+{file,          "_icans_default/app/rebar.config",              "{{projectid}}/apps/{{appid}}/rebar.config"}.
 {template,	"_icans_default/app/src/template.erl",		"{{projectid}}/apps/{{appid}}/src/{{appid}}.erl"}.
 {template,	"_icans_default/app/src/template.app.src",	"{{projectid}}/apps/{{appid}}/src/{{appid}}.app.src"}.
 {template,	"_icans_default/app/src/template_rootapp.erl",	"{{projectid}}/apps/{{appid}}/src/{{appid}}_app.erl"}.
