@@ -11,12 +11,12 @@
 {dir,						"{{projectid}}/deps"}.
 {dir,						"{{projectid}}/include"}.
 
-{file,		"_icans_default/app/_gitignore",		"{{projectid}}/apps/{{appid}}/.gitignore"}.
-{file,          "_icans_default/app/rebar.config",              "{{projectid}}/apps/{{appid}}/rebar.config"}.
-{template,	"_icans_default/app/src/template.erl",		"{{projectid}}/apps/{{appid}}/src/{{appid}}.erl"}.
-{template,	"_icans_default/app/src/template.app.src",	"{{projectid}}/apps/{{appid}}/src/{{appid}}.app.src"}.
-{template,	"_icans_default/app/src/template_rootapp.erl",	"{{projectid}}/apps/{{appid}}/src/{{appid}}_app.erl"}.
-{template,	"_icans_default/app/src/template_sup.erl",	"{{projectid}}/apps/{{appid}}/src/{{appid}}_sup.erl"}.
+{file,		"_icans_default/app/_gitignore",		"{{projectid}}/src/apps/{{appid}}/.gitignore"}.
+{file,          "_icans_default/app/rebar.config",              "{{projectid}}/src/apps/{{appid}}/rebar.config"}.
+{template,	"_icans_default/app/src/template.erl",		"{{projectid}}/src/apps/{{appid}}/src/{{appid}}.erl"}.
+{template,	"_icans_default/app/src/template.app.src",	"{{projectid}}/src/apps/{{appid}}/src/{{appid}}.app.src"}.
+{template,	"_icans_default/app/src/template_rootapp.erl",	"{{projectid}}/src/apps/{{appid}}/src/{{appid}}_app.erl"}.
+{template,	"_icans_default/app/src/template_sup.erl",	"{{projectid}}/src/apps/{{appid}}/src/{{appid}}_sup.erl"}.
 
 {file,		"_icans_default/bin/generate_cookie.sh",	"{{projectid}}/bin/generate_cookie.sh"}.
 {chmod,		8#744,						"{{projectid}}/bin/generate_cookie.sh"}.
