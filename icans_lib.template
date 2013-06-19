@@ -3,6 +3,7 @@
 	{author, "John Doe"}
 ]}.
 
+{file,		"_icans_default/app/Makefile",			"{{appid}}/Makefile"}.
 {file,		"_icans_default/app/_gitignore",		"{{appid}}/.gitignore"}.
 {file,		"_icans_default/app/rebar.config",		"{{appid}}/rebar.config"}.
 {template,	"_icans_default/app/src/template.lib.erl",	"{{appid}}/src/{{appid}}.erl"}.
